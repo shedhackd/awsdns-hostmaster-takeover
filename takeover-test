@@ -1,0 +1,10 @@
+echo "# awsdns-hostmaster-takeover" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/shedhackd/awsdns-hostmaster-takeover.git
+git push -u origin master
+
+
+irobot takeover awsdns-hostmaster.amazon.com
+
